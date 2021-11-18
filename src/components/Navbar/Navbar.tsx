@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
     <nav>
     <div className="nav-wrapper indigo px1">
-      <a href="/" className="brand-logo">Logo</a>
+      <Link to='/' className="brand-logo"> Logo</Link>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li>
           <Link to='/'> ToDo</Link>
